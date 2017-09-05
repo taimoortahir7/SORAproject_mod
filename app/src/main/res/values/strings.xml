@@ -16,4 +16,11 @@
     <string name="biography_lifestyle">Lifestyle (Video)</string>
     <string name="title_activity_videos">Videos</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--Android Hive Tutorial-->
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
 </resources>
