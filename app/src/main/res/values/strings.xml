@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SORAproject</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="biography_headingOne">SORA Family: Biography</string>
+
+    <string name="biography_text">Ljhbjehvntjgbrkrtg.Dnvtrngkrnbrmferntuigneignt\njhbrfjhrebfjhrebgeIjngejnfvjv
+    hjrgnejfnjv. Sjnerkfnjhbtngkjjtbtr. Ujgnjkferbtjkegnbjkt jkjngjkrfnjkbvdkv fd nfkj nj nkjrgnrj nr
+    ejkt nrje ngejkgnejkgn erj gnre.\n Tjdhvndjkn j ngjng j.Idjfn jfdnj ndgjnfdj kgnf j odngjkdfngjbehr.
+    \n Jfngjk rj nge ntkgt,e te t je njngj njktgn tejkgnejk nej ge.Snfg jknj gknkjgnkjndbjgbkdfmbgfjbngmb\n
+    Ghjvbndf jkn jkngkjdfng fdjkndf kb.</string>
+    <string name="biography_lifestyle">Lifestyle (Video)</string>
+    <string name="title_activity_videos">Videos</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

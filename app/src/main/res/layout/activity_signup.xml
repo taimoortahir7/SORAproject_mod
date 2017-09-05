@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taimoortahir.soraproject.Signup"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="160sp"
+                android:src="@drawable/sora_logo"
+                android:id="@+id/imageView2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/et_email_signup"
+                android:layout_width="260sp"
+                android:layout_height="40sp"
+                android:hint="Username/Email"
+                android:background="@drawable/text_box"
+                android:inputType="textEmailAddress"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="10sp"
+                android:textCursorDrawable="@drawable/color_cursor"/>
+
+            <EditText
+                android:id="@+id/et_fullname_signup"
+                android:layout_width="260sp"
+                android:layout_height="40sp"
+                android:hint="Full Name"
+                android:background="@drawable/text_box"
+                android:layout_below="@+id/et_email_signup"
+                android:layout_alignStart="@+id/et_email_signup"
+                android:layout_marginTop="13dp"
+                android:layout_alignEnd="@+id/et_email_signup"
+                android:inputType="text"
+                android:paddingLeft="10sp"
+                android:textCursorDrawable="@drawable/color_cursor"/>
+
+            <EditText
+                android:id="@+id/et_password_signup"
+                android:layout_width="260sp"
+                android:layout_height="40sp"
+                android:hint="Password"
+                android:background="@drawable/text_box"
+                android:layout_below="@+id/et_fullname_signup"
+                android:layout_alignStart="@+id/et_fullname_signup"
+                android:layout_marginTop="13dp"
+                android:layout_alignEnd="@+id/et_fullname_signup"
+                android:inputType="textPassword"
+                android:paddingLeft="10sp"
+                android:textCursorDrawable="@drawable/color_cursor"/>
+
+            <EditText
+                android:id="@+id/et_c_password_signup"
+                android:layout_width="260sp"
+                android:layout_height="40sp"
+                android:hint="Confirm Password"
+                android:background="@drawable/text_box"
+                android:layout_below="@+id/et_password_signup"
+                android:layout_alignStart="@+id/et_password_signup"
+                android:layout_marginTop="13dp"
+                android:layout_alignEnd="@+id/et_password_signup"
+                android:inputType="textPassword"
+                android:paddingLeft="10sp"
+                android:textCursorDrawable="@drawable/color_cursor"/>
+
+            <Button
+                android:id="@+id/btn_signup_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:text="Signup"
+                android:layout_below="@+id/et_c_password_signup"
+                android:layout_marginTop="40dp"
+                android:layout_alignEnd="@+id/et_c_password_signup"
+                android:layout_alignStart="@+id/et_c_password_signup"
+                android:background="@drawable/button_box"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_login_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:text="login"
+                android:layout_below="@+id/btn_signup_signup"
+                android:layout_marginTop="15dp"
+                android:layout_alignEnd="@+id/btn_signup_signup"
+                android:layout_alignStart="@+id/btn_signup_signup"
+                android:background="@drawable/text_box"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

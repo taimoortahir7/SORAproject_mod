@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taimoortahir.soraproject.Biography">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_biography_headingOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/biography_headingOne"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_biography_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_biography_headingOne"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/biography_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_biography_headingTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tv_biography_headingOne"
+                android:layout_below="@+id/tv_biography_text"
+                android:layout_marginTop="17dp"
+                android:text="@string/biography_lifestyle"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/video_frame_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"></FrameLayout>-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/daniel_redcliff_2"
+                android:layout_marginTop="-150dp"
+                android:layout_below="@+id/tv_biography_headingTwo"
+                android:layout_alignEnd="@+id/tv_biography_text"
+                android:layout_alignStart="@+id/tv_biography_text" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
