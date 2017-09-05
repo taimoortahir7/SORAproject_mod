@@ -14,6 +14,8 @@ import java.util.List;
  * Created by Taimoor Tahir on 23-Jul-17.
  */
 
+//this is comment
+
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.MyViewHolder> {
 
     private List<Task> taskList;
