@@ -23,7 +23,6 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Biography" />
-        <activity android:name=".FullImage" />
         <activity
             android:name=".Videos"
             android:label="@string/title_activity_videos"

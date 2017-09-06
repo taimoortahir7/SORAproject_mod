@@ -20,7 +20,7 @@ import java.util.List;
  * Created by TaimoorTahir on 30/08/2017.
  */
 
-public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHolder> {
+public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder> {
 
     private Context mContext;
     private List<Image> imageList;
@@ -38,8 +38,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         }
     }
 
-
-    public AlbumsAdapter(Context mContext, List<Image> imageList) {
+    public ImageAdapter(Context mContext, List<Image> imageList) {
         this.mContext = mContext;
         this.imageList = imageList;
     }

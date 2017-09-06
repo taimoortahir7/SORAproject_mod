@@ -5,20 +5,20 @@ package com.example.taimoortahir.soraproject;
  */
 
 public class Image {
-    String image;
+    int image;
 
     public Image(){
     }
 
-    public Image(String image) {
+    public Image(int image) {
         this.image = image;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 }
